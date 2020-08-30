@@ -1,0 +1,32 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "One Dark Pro",
+  "editor.fontSize": 16,
+  "php.validate.executablePath": "C:/xampp/php/php.exe",
+  "workbench.editor.enablePreview": false,
+  "phpfmt.psr2": false,
+  "phpfmt.exclude": ["AllmanStyleBraces"],
+  "phpfmt.passes": ["AllmanStyleBraces", "SpaceAroundParentheses"],
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "/assets/css"
+    }
+  ],
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.customCommand": "",
+  "code-runner.clearPreviousOutput": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[php]": {
+    "editor.defaultFormatter": "kokororin.vscode-phpfmt"
+  },
+  "editor.renameOnType": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveSassCompile.settings.excludeList": ["**/node_modules/**", ".vscode/**"],
+  "liveServer.settings.donotVerifyTags": true,
+  "editor.formatOnSave": true,
+  "explorer.confirmDragAndDrop": false
+}

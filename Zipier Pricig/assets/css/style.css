@@ -97,6 +97,11 @@
   color: #d9dfe3;
 }
 
+.pricing__box .card__body--features h6 {
+  border-bottom: 1px solid #d9dfe3;
+  line-height: 1.8rem;
+}
+
 .pricing__box .card__btn--modify {
   border: none;
   background: #16d4b2;

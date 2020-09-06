@@ -23,7 +23,7 @@ body {
 }
 
 .course .vplayer__title h2 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .course .vplayer__player {
@@ -144,7 +144,8 @@ body {
     float: left !important;
     border-right: none !important;
     height: 50vh !important;
-    position: static !important;
+    position: fixed !important;
+    z-index: 9999 !important;
   }
   .vplayer__player {
     width: 100% !important;
@@ -173,7 +174,12 @@ body {
     float: right !important;
     border-right: none !important;
     height: 50vh !important;
-    position: static !important;
+    position: relative !important;
+    margin-top: 50vh !important;
+  }
+  .sideber__content {
+    overflow-y: hidden !important;
+    height: auto !important;
   }
 }
 /*# sourceMappingURL=style.css.map */

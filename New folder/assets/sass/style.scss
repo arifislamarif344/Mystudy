@@ -21,7 +21,7 @@ body {
       display: flex;
       align-items: center;
       h2 {
-        font-size: 40px;
+        font-size: 30px;
       }
     }
 
@@ -139,7 +139,8 @@ body {
     float: left !important;
     border-right: none !important;
     height: 50vh !important;
-    position: static !important;
+    position: fixed !important;
+    z-index: 9999 !important;
 
     &__player {
       width: 100% !important;
@@ -174,6 +175,12 @@ body {
     float: right !important;
     border-right: none !important;
     height: 50vh !important;
-    position: static !important;
+    position: relative !important;
+    margin-top: 50vh !important;
+
+    &__content {
+      overflow-y: hidden !important;
+      height: auto !important;
+    }
   }
 }

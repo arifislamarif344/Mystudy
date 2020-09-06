@@ -22,13 +22,6 @@ $(document).ready(function () {
     var icon = document.querySelector("#episode__3 #icon");
     icon.classList.toggle("fa-minus");
   });
+
+  // Added More
 });
-
-// function myFunction(x) {
-//   x.classList.toggle("fa-thumbs-down");
-// }
-
-// var icon = document.querySelector("#icon");
-// icon.addEventListener("click", function () {
-//   icon.classList.toggle("fa-thumbs-down");
-// });

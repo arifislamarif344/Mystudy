@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .pricing {
   padding: 5rem 1rem;
   border: 1px solid #141414;

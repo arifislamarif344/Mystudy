@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <!--------------------------------- Secondary Navber -------------------------------->
+    <section class="topber">
+        <div class="topber__title">
+            <div id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <span class="topber__title--text">Members</span>
+        </div>
+
+        <div class="topber__profile">
+            <img src="./assets/img/20200312_113912-01.jpeg" class="rounded-circle" alt="profile">
+            <div class="dropdown">
+                <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    MD Arif Islam
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Dashboard</a>
+                    <a class="dropdown-item" href="#">Profile</a>
+                    <a class="dropdown-item" href="#">Log Out</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--------------------------------- Secondary Navber -------------------------------->
+
+
+    <!--------------------------------- Sideber -------------------------------->
+    <section id="sideber" class="sideber">
+        <div id="dismiss">
+            <i class="fas fa-times"></i>
+        </div>
+        <ul class="sideber__ber">
+            <h3 class="sideber__panel"><i class="fas fa-laugh-wink"></i> Panel</h3>
+            <li class="sideber__item ">
+                <a href="index.html"><i class="fas fa-tachometer-alt"></i>Dashboard</a>
+            </li>
+            <li class="sideber__item">
+                <a href="document.html"><i class="fas fa-folder-open"></i>Your Documents</a>
+            </li>
+            <li class="sideber__item">
+                <a href=""><i class="far fa-question-circle"></i>Edit Questions</a>
+            </li>
+            <li class="sideber__item">
+                <a href=""><i class="fas fa-user-edit"></i>Upgrade</a>
+            </li>
+            <li class="sideber__item active">
+                <a href="add-member.html"><i class="fas fa-user-plus"></i>Add Member</a>
+            </li>
+            <li class="sideber__item ">
+                <a href="settings.html"><i class="fas fa-cogs"></i>Settings</a>
+            </li>
+            <li class="sideber__item sideber__item--modify">
+                <a href=""><i class="fas fa-sign-out-alt"></i></i>Log Out</a>
+            </li>
+        </ul>
+
+    </section>
+    <!--------------------------------- #Sideber -------------------------------->
+
+
+    <!--------------------------------- Main section -------------------------------->
+    <section class="main">
+        <div class="container">
+            <span class="main__title">Members</span>
+            <div class="main__table">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="name">Name</th>
+                            <th scope="col">Username</th>
+                            <th scope="col">Email</th>
+                            <th scope="col" class="phone">Phone</th>
+                            <th scope="col">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>MD Arif Islam</td>
+                            <td>arifislam65</td>
+                            <td>arifislam65@gmail.com</td>
+                            <td>01700-000000</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>MD Arif Islam</td>
+                            <td>arifislam65</td>
+                            <td>arifislam65@gmail.com</td>
+                            <td>01700-000000</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>MD Arif Islam</td>
+                            <td>arifislam65</td>
+                            <td>arifislam65@gmail.com</td>
+                            <td>01700-000000</td>
+                            <td>Active</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+
+            </div>
+
+            <span class="main__title">Add new members : </span>
+
+            <div class="main__form">
+                <div class="main__form--title text-center">Sign Up</div>
+                <form action="">
+                    <div class="form-row">
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-user-circle"></i>
+                                <input type="text" placeholder="First name">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-user-circle"></i>
+                                <input type="text" placeholder="Last Name">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-user"></i>
+                                <input type="text" placeholder="Username">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-envelope"></i>
+                                <input type="text" placeholder="Email">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-phone-alt"></i>
+                                <input type="text" placeholder="Phone">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-birthday-cake"></i>
+                                <input type="date" placeholder="Birthday">
+                            </label>
+                        </div>
+                        <div class="col col-12">
+                            <label class="input">
+                                <i class="fas fa-male"></i>
+                                <select name="Gender" id="gender">
+                                    <option value="Male">Male</option>
+                                    <option value="Female">Female</option>
+                                    <option value="Consider not to say">Consider Not to Say</option>
+                                </select>
+                            </label>
+                        </div>
+
+                        <div class="col col-12">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!--------------------------------- #Main section -------------------------------->
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom Js -->
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
